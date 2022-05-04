@@ -1,4 +1,4 @@
-function descuento(precio, descuento){
+const descuento=(precio, descuento)=>{
 var descuento=50
 const descuentoinicial=precio/descuento
 var preciofinal= 100/descuentoinicial

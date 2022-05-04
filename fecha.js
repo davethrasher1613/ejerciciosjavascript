@@ -1,8 +1,8 @@
 
 
 
-/* 
-function fecha(a){
+
+const fecha=(a)=>{
 
 var fechaingresada= new Date(a)
 var fechadehoy=new Date("2022-05-02")
@@ -22,13 +22,13 @@ if (fechadehoy>fechaingresada) {
 }
 
 }
-fecha("2023-05-02") */
+fecha("2023-05-02") 
 
 
 
 
-
-/* function fecha(fecha){
+/* 
+const fecha=(fecha)=>{
 
     var fechaingresada= new Date(fecha)
     var fechadehoy=new Date()
@@ -48,4 +48,4 @@ fecha("2023-05-02") */
     }
     
     }
-    fecha("2023-05-02") */
+    fecha("2020-05-02")  */

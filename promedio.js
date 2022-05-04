@@ -3,21 +3,21 @@ const sumarpromedio=(arreglo1,arreglo2)=>{
 var suma=0
 var suma2=0
 
-var l1=arreglo1.length
-var l2=arreglo2.length
+var tabla1=arreglo1.length
+var tabla2=arreglo2.length
 
 
-for (var i=0; i<l1;i++){
+for (var i=0; i<tabla1;i++){
     suma =suma+arreglo1[i]
 
 
 }
-suma=suma/l1
+suma=suma/tabla1
 
-for(var i=0; i<l2;i++){
+for(var i=0; i<tabla2;i++){
     suma2=suma2+arreglo2[i]
 }
-suma2=suma2/l2
+suma2=suma2/tabla2
 
 if(suma>suma2){
     console.log(`el vector con mayor promedio es el numero uno con ${suma}`)
