@@ -26,7 +26,7 @@ setBanda2(banda2){
 
 };
 rockalparque2019.setBanda1("slayer")// el metdo set permite modificar un atribuito de un objeto como en este caso slayer pasa al espacio de la banda uno opnde estaba sodom
-rockalparque2019.banda1="cannibal corpse";//metodo set llamado de otro modo
+rockalparque2019.banda1="death";//metodo set llamado de otro modo
 console.log(rockalparque2019.getBanda1())
 console.log(rockalparque2019.getBanda2())
  

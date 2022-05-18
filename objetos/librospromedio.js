@@ -29,13 +29,7 @@ if (this.fecha_de_publicacion>cambiar_libro){
     return`el libro ${this.nombre} debe ser cambiado`
 }
 
-
-
-
 }
-
-
-
 
 }
 
