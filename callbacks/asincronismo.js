@@ -48,4 +48,4 @@ setTimeout(() => {
     for ( i = 0; i < 5; i++) {        
         console.log(vec[Math.round(Math.random()*4)])
     }
-}, i*1000);
+}, i*2000);

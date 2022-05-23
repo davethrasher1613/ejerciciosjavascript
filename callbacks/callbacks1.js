@@ -12,12 +12,12 @@
 // principal(parametro);
 
 function principal(num1,num2,callback){
-    let r=num1+num2;
-    callback(r);
+    let resultado=num1+num2;
+    callback(resultado);
 }
 
-function impresora(msj){
-    console.log(`imprimiendo ${msj}`);
+function impresora(resultado){
+    console.log(`imprimiendo ${resultado}`);
     //return `imprimiendo ${msj}`
 }
 
