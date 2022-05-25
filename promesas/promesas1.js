@@ -63,7 +63,7 @@ function prometedora(num){
         reject(); 
     })
 }
-                                            
+
 function prueba(parametro){
     console.log(`Soy una fruta ${parametro}`)
     return parametro
